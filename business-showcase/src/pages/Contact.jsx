@@ -20,10 +20,11 @@ export default function Contact() {
 					<div className="rounded-xl border border-white/10 bg-white/5 p-5">
 						<h2 className="text-xl font-semibold">Address</h2>
 						<div className="mt-3 space-y-1 text-zinc-300">
-							<p>Newtech power systems</p>
-							<p>B-71 Opp B-52</p>
-							<p>Swarn park Telco Road mundka</p>
-							<p><span className="text-zinc-400">GST:</span> 07AAS PK833 9A1ZJ</p>
+							<p>Newtech Power Systems</p>
+							<p>KH/No. 98/9</p>
+							<p>Ground floor Swarn Park</p>
+							<p>Delhi 110041</p>
+							<p className="pt-2"><span className="text-zinc-400">GST:</span> 07AAS PK833 9A1ZJ</p>
 							<p className="pt-2"><a className="text-blue-400 hover:underline" href="https://www.google.com/maps/place/NEWTECH+POWER+SYSTEMS/data=!4m2!3m1!1s0x0:0x7d777581b718d885?sa=X&ved=1t:2428&ictx=111" target="_blank" rel="noreferrer">View on Google Maps</a></p>
 						</div>
 					</div>

@@ -1,8 +1,19 @@
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, NavLink, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import Home from './pages/Home.jsx'
 import Products from './pages/Products.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
+
+function ScrollToTop() {
+	const { pathname } = useLocation()
+
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [pathname])
+
+	return null
+}
 
 function Navbar() {
 	return (
@@ -36,6 +47,7 @@ function Footer() {
 function AppShell() {
 	return (
 		<div className="flex min-h-screen flex-col bg-zinc-950 text-zinc-100">
+			<ScrollToTop />
 			<Navbar />
 			<main className="flex-1 pt-20">
 				<Routes>
