@@ -11,8 +11,8 @@ export default function Contact() {
 					<div className="rounded-xl border border-white/10 bg-white/5 p-5">
 						<h2 className="text-xl font-semibold">Contact Details</h2>
 						<div className="mt-3 space-y-2 text-zinc-300">
-							<p><span className="text-zinc-400">Emails:</span> <a className="text-blue-400 hover:underline" href="mailto:newtechpower@yahoo.com">newtechpower@yahoo.com</a></p>
-							<p><span className="text-zinc-400">Number:</span> <a className="text-blue-400 hover:underline" href="tel:+919115707310">9115707310</a>, <a className="text-blue-400 hover:underline" href="tel:+919212532381">9212532381</a></p>
+							<p><span className="text-zinc-400">Email:</span> <a className="text-blue-400 hover:underline" href="mailto:newtechpower@yahoo.com">newtechpower@yahoo.com</a></p>
+							<p><span className="text-zinc-400">Office:</span> <a className="text-blue-400 hover:underline" href="tel:+919115707310">9115707310</a>, <a className="text-blue-400 hover:underline" href="tel:+919212532381">9212532381</a></p>
 							<p><span className="text-zinc-400">Mobile:</span> <a className="text-blue-400 hover:underline" href="tel:+917529052912">7529052912</a></p>
 						</div>
 					</div>
